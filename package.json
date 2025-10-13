@@ -1,0 +1,26 @@
+{
+  "name": "vuln-sample-two",
+  "version": "0.1.0",
+  "description": "Second sample package.json for dependency scanner testing (do not use in production)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"no tests\""
+  },
+  "dependencies": {
+    "lodash": "4.17.15-vulnerable",
+    "minimist": "0.0.8-vulnerable",
+    "glob-parent": "3.1.0-vulnerable",
+    "serialize-javascript": "1.6.1-vulnerable",
+    "tar": "2.2.1-vulnerable",
+    "node-serialize": "0.0.3-vulnerable",
+    "ws": "5.2.2-vulnerable",
+    "left-pad": "0.0.1-vulnerable"
+  },
+  "devDependencies": {
+    "grunt": "0.4.5-vulnerable",
+    "gulp": "3.9.1-vulnerable"
+  },
+  "author": "security-lab",
+  "license": "MIT"
+}
